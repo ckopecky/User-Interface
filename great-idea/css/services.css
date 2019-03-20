@@ -1,3 +1,72 @@
 .container header {
     margin: 30px auto;
 }
+
+.services-intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+
+.services-intro h1 {
+    font-size: 1.6rem;
+}
+
+.services-intro p {
+    line-height: 1.25;
+}
+
+.services-card-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0px;
+    height: 850px;
+    align-items: flex-start;
+}
+
+.individual-card {
+    width: 45%;
+    height: 250px;
+    border: 1px solid black;
+    background: #F4F3F4;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.individual-card button {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    height: 40px;
+    width: 33%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.bottom-content {
+    display: flex;
+    height: auto;
+    margin: 20px 0px;
+}
+
+.list-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-content p{
+    line-height: 1.5;
+    margin: 20px 40px 20px 0px;
+
+}
+
+.list-content ul {
+    list-style-type: square;
+    margin: 20px;
+    line-height: 1.5;
+}
